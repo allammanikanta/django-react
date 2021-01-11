@@ -1,0 +1,38 @@
+.taskCard {
+    margin: 10px;
+    min-height: 40px;
+    padding: 5px 5px 5px 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.taskCard:hover {
+    background-color: #FEEAE6;
+}
+
+.taskCard > span {
+    padding-bottom: 5px;
+    overflow: hidden;
+    font-weight: bold;
+}
+
+.disabled {
+    background-color: #c5c5c5;
+    opacity: 0.3;
+}
+
+.disabled:hover {
+    background-color: #c5c5c5;
+}
+
+.taskTitle {
+    width: 70%;
+}
+
+.taskCategory {
+    width: 10%;
+    display: flex;
+    white-space: nowrap;
+}
